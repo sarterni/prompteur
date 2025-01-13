@@ -11,9 +11,9 @@
 <body>
     <div class="prompteur-container">
         <div class="text-display" id="textDisplay">
-            <!-- Default scrolling text -->
-            Welcome to your custom teleprompter! Enter your text in the box below and click "Load Text" to get started. click "Start" and ajust the speed.
-        </div>
+<p>        Welcome to your custom teleprompter! Enter your text in the box below and click "Load Text" to get started. click "Start" and ajust the speed.
+</p>
+    </div>
     </div>
 
     <div class="user-input">

@@ -80,9 +80,16 @@ textarea:focus {
     border-color: #007bff;
 }
 
-#textDisplay {
+#textDisplay p {
+    top: 0;
     white-space: pre-wrap; /* Permet le retour à la ligne */
     word-wrap: break-word; /* Permet de couper les mots trop longs */
+    position: relative; /* Position relative pour rester dans le conteneur parent */
+    width: 100%; /* Assurez-vous que l'élément prend toute la largeur disponible */
+    height: 100%; /* Assurez-vous que l'élément prend toute la hauteur disponible */
+    overflow: auto; /* Permet le défilement si le texte dépasse */
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la taille totale de l'élément */
+    padding: 10px; 
 }
 
 #userText {
